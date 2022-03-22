@@ -1,3 +1,6 @@
+/**
+ * Типы серверных ошибок
+ */
 enum class ErrorTypeHTTP(val code:Int, @StringRes val title:Int, @StringRes val desc:Int? = null) {
     INTERNAL_ERROR(code = 500, title = "error title"),
     NOT_IMPL_ERROR(code = 501, title = "error title"),
